@@ -1,0 +1,14 @@
+.header {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    height: 10%;
+    background-color: aqua;
+    border: solid 2px gray;
+    border-radius: 10px;
+}
+
+.header img {
+    height: 100%;
+    margin-left: 20px;
+}

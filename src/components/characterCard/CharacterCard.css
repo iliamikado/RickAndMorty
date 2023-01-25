@@ -1,0 +1,38 @@
+.character-card {
+    height: 200px;
+    margin: 20px;
+    background-color: antiquewhite;
+    position: relative;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.character-card img {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 160px;
+    height: 160px;
+}
+
+.description {
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    right: 10px;
+    left: 190px;
+}
+
+.description p {
+    margin: 0px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.location-name {
+    color: black;
+}
+
+.location-name:hover {
+    cursor: pointer;
+}

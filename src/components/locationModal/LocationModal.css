@@ -1,0 +1,8 @@
+.residents {
+    color: black;
+    text-decoration: underline;
+}
+
+.residents:hover {
+    cursor: pointer;
+}

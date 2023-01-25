@@ -1,0 +1,36 @@
+.character-list {
+    position: absolute;
+    overflow: auto;
+    top: 10%;
+    left: 30%;
+    right: 20%;
+    min-width: 700px;
+    height: 90%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.character-list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.load-more {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.loading {
+    position: absolute;
+    left: 49%;
+    margin-bottom: 50px;
+}
+
+.empty-list {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    color: gray;
+}

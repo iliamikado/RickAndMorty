@@ -1,0 +1,18 @@
+.filter {
+    position: absolute;
+    left: 10px;
+    top: 11%;
+    width: 25%;
+    padding: 20px;
+    border: solid gray 2px;
+    border-radius: 10px;
+}
+.filter label {
+    padding-top: 10px;
+}
+
+.filter button {
+    float: right;
+    margin-top: 20px;
+    width: 30%;
+}
